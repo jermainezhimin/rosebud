@@ -15,9 +15,9 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Rosebud Supper Club is a micro-dosed luxury dining experience, and a space to celebrate the intersection of fine dining & cannabis.</p>
-          <p>Always family-style, our shared dinners are places where you can break bread with friends, family, and some of the most interesting people in your city.</p>
-          <p>Designed to encourage conversation amongst guests, Rosebud Supper Club is a uniquely elevated social and culinary experience.</p>
+          <p>RBSC is a micro-dosed dining experience celebrating the intersection of food, cannabis, and community.</p>
+          <p>We believe eating should be fun. Food should be elevated, dining should be communal, and that what goes into our bowls matters.</p>
+          <p>Join us at the table-raise a glass, break bread, spark a joint, be a part of the ever expanding Rosebud community. </p>
           {close}
         </article>
 
@@ -37,7 +37,20 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="connect" className={`${this.props.article === 'connect' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Connect</h2>
+          {/* <span className="image main"><img src={pic02} alt="" /></span> */}
+          <p>Sign up for our mailing list and stay up to date about future RBSC programming </p>
+          <p style={{textAlign:"center"}}><a className="button special" href="mailto:info@rbsc.com"> JOIN US </a></p>
+          <p>For Collaborators, co- conspirators, potential partners and sponsors, reach out at <a href="mailto:info@rbsc.com">INFO@RBSC.COM</a> </p>
+          <p>Looking forward to connecting - Rosebud Supper Club</p>
+          <ul className="icons">
+            <li><a href="https://www.instagram.com/rosebud_supperclub/" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+          </ul>
+          {close}
+        </article>
+
+        {/* <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
           <form method="post" action="#">
             <div className="field half first">
@@ -61,7 +74,7 @@ class Main extends React.Component {
             <li><a href="https://www.instagram.com/rosebud_supperclub/" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
           </ul>
           {close}
-        </article>
+        </article> */}
 
       </div>
     )
