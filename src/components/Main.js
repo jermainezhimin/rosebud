@@ -41,8 +41,8 @@ class Main extends React.Component {
           <h2 className="major">Connect</h2>
           {/* <span className="image main"><img src={pic02} alt="" /></span> */}
           <p>Sign up for our mailing list and stay up to date about future RBSC programming </p>
-          <p style={{textAlign:"center"}}><a className="button special" href="mailto:info@rbsc.com"> JOIN US </a></p>
-          <p>For Collaborators, co- conspirators, potential partners and sponsors, reach out at <a href="mailto:info@rbsc.com">INFO@RBSC.COM</a> </p>
+          <p style={{textAlign:"center"}}><a className="button special" href="mailto:rosebudsupperclubnyc@gmail.com"> JOIN US </a></p>
+          <p>For Collaborators, co- conspirators, potential partners and sponsors, reach out at <a href="mailto:rosebudsupperclubnyc@gmail.com">ROSEBUDSUPPERCLUBNYC@GMAIL.COM</a> </p>
           <p>Looking forward to connecting - Rosebud Supper Club</p>
           <ul className="icons">
             <li><a href="https://www.instagram.com/rosebud_supperclub/" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
@@ -50,7 +50,7 @@ class Main extends React.Component {
           {close}
         </article>
 
-        {/* <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
           <form method="post" action="#">
             <div className="field half first">
@@ -74,7 +74,7 @@ class Main extends React.Component {
             <li><a href="https://www.instagram.com/rosebud_supperclub/" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
           </ul>
           {close}
-        </article> */}
+        </article>
 
       </div>
     )
