@@ -40,8 +40,8 @@ class Main extends React.Component {
         <article id="connect" className={`${this.props.article === 'connect' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Connect</h2>
           {/* <span className="image main"><img src={pic02} alt="" /></span> */}
-          <p>Sign up for our mailing list and stay up to date about future RBSC programming </p>
-          <p style={{textAlign:"center"}}><a className="button special" href="mailto:rosebudsupperclubnyc@gmail.com"> JOIN US </a></p>
+          <p>Click to sign up for our mailing list and stay up to date about future RBSC programming </p>
+          <p style={{textAlign:"center"}}><a className="button special" href="http://eepurl.com/drJexb"> JOIN US </a></p>
           <p>For Collaborators, co- conspirators, potential partners and sponsors, reach out at <a href="mailto:rosebudsupperclubnyc@gmail.com">ROSEBUDSUPPERCLUBNYC@GMAIL.COM</a> </p>
           <p>Looking forward to connecting - Rosebud Supper Club</p>
           <ul className="icons">
